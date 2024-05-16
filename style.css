@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    font-family: YAFdJr3SNlU-0, -apple-system, BlinkMacSystemFont, sans-serif; 
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(255, 255, 255 );
+    color: rgb(0, 0, 0);
+}
+
+.head0 {
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+    top: 0px; 
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.headContainer {
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center; 
+    background-color: #ffffff; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07); 
+    text-overflow: ellipsis; 
+    height: 50px; 
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+}
+
+/*--        Home Header     --*/
+
+.headCtnCtnr {
+    padding-top: 90px;
+    padding-left: 380px;
+    display: flex;
+}
+
+.head {
+    margin-top: -15px;
+    padding-right: 20px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.horizontalLine {
+    border-top: 1px solid black;
+    width: 57%;
+    padding-top: 10%;
+    padding-left: 10px;
+    
+}
+
+.content {
+    padding-left: 380px;
+    position: relative;
+}
+
+.twtyfivePortfolio {
+    
+    padding-top: 290px;
+    padding-right: 10px;
+    font-size: 110px;
+}
+
+.VMY {
+    position: absolute;
+    bottom: 35px;
+    margin-top: 1000px;
+    margin-left: 1005px;
+    padding-bottom: 15px;
+    padding-top: 15px;  
+    padding-left: 55px;
+    font-size: 30px;
+    font-weight: lighter;
+    width: 340px;
+    border: 1px solid black;
+}
+
+.sndImg {
+    position: relative;
+    height: 500px;
+    width: 360px; 
+    margin-left: 1465px;
+    bottom: 650px;
+}
+
+.frstImg {
+    position: relative;
+    margin-left: 1055px;
+    top: -1150px;
+    height: 500px;
+    width: 360px; 
+}
+
+/*--          Home content       --*/
+
+.horizontalLine2 {
+    border-top: 1px solid black;
+    width: 64%;
+    padding-top: 10%;
+    padding-left: 10px;
+    
+}
+
+.head2 {
+    padding-right: 50px;
+    margin-top: -15px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.philosophyCntnt {
+    display: flex;
+}   
+
+.phlsphyImg {
+    margin-top: -100px;
+    margin-left: 380px;
+    padding-right: 70px;
+    height: auto;
+    width: 730px;
+}
+
+.cntent {
+    padding-right: 50px;
+    margin-top: 120px;
+    font-family: 'ExtraLight 200', sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    
+}
+
+/*--          Philosophy           --*/
+
+
+
+.horizontalLine3 {
+    border-top: 1px solid black;
+    width: 65%;
+    padding-top: 10%;
+    padding-left: 10px;
+    
+}
+
+
+.head3 {
+    padding-right: 50px;
+    margin-top: -15px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.backgroundImg {
+    margin-top: -130px;
+    margin-left: 365px;
+    padding-right: 70px;
+    height: auto;
+    width: 68%;
+}
+
+.aligner {
+    margin-top: 52px;
+    display: flex;
+    margin-left: 600px;
+
+}
+
+.aligner h3 {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.exp {
+    padding-left: 500px;
+}
+
+.aligner2 h4 {
+    display: block;
+    font-size: 20px;
+    font-family: 'ExtraLight 200', sans-serif;
+    font-weight: lighter;
+    margin-left: 570px;
+    letter-spacing: 1px;
+    line-height: 160%;
+    
+}
+
+.underSkill {
+    margin-top: 40px;
+}
+
+.underExp {
+    margin-left: 625px;
+    margin-top: -195px;
+}
+
+
+/*--          My Background        --*/
+
+.gCtrlr {
+    position: fixed;
+}
+
+.horizontalLine4 {
+    border-top: 1px solid black;
+    width: 64%;
+    padding-top: 10%;
+    padding-left: 10px;
+    
+}
+
+.head4 {
+    z-index: 999;
+    top: 0;
+    padding-right: 50px;
+    margin-top: -15px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.gPic {
+    margin-left: 375px;
+    margin-top: -70px;
+    height: auto;
+    width: 1373px;
+}
+
+.ctnr h4 {
+    margin-left: 375px;
+    margin-top: 30px;
+    font-family: 'ExtraLight 200', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+
+
+.gPic2 {
+    margin-left: 340px;
+    margin-top: 120px;
+    height: auto;
+    width: 1500px;
+}
+
+
+.head5 {
+    padding-right: 50px;
+    margin-top: -15px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+   
+
+.horizontalLine5 {
+    border-top: 1px solid black;
+    width: 64%;
+    padding-top: 10%;
+    padding-left: 10px;
+}
+
+.gPic3 {
+    margin-left: 375px;
+    margin-top: -100px;
+    height: auto;
+    width: 1400px;
+}
+
+/*--          Gallery           --*/
+
+.galleryCtnr {
+    margin-top: 130px;
+    margin-left: 320px;
+    
+}
+
+.contactImg {
+    height: auto;
+    width: 1500px;
+}
+
